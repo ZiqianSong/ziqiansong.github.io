@@ -24,11 +24,11 @@ ninja.data = [{
             window.location.href = "/cv/";
           },
         },{id: "nav-teaching",
-          title: "teaching",
+          title: "Teaching",
           description: "Course materials, schedules, and resources for classes taught.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/teaching/";
+            window.location.href = "/Teaching/";
           },
         },{id: "post-a-post-with-plotly-js",
         
