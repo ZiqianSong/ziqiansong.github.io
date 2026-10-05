@@ -39,6 +39,15 @@ permalink: /
       </details>
     </article>
   </section>
+  <section class="academic-papers" aria-labelledby="progress-heading">
+    <h2 id="progress-heading">Work in Progress</h2>
+    <article>
+      <h3>Human Capital, Directed Innovation, and Structural Change</h3>
+    </article>
+    <article>
+      <h3>Data-Biased Knowledge Production</h3>
+    </article>
+  </section>
 </section>
 
 <section id="cv" data-academic-view="cv" aria-labelledby="cv-heading" hidden>
