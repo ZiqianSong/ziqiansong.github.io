@@ -1,20 +1,7 @@
 ---
-layout: page
+layout: academic-redirect
 permalink: /Research/
 title: Research
-description:
 nav: false
-nav_order: 2
+target: "#research"
 ---
-
-<!-- _pages/publications.md -->
-
-<!-- Bibsearch Feature -->
-
-{% include bib_search.liquid %}
-
-<div class="publications">
-
-{% bibliography %}
-
-</div>

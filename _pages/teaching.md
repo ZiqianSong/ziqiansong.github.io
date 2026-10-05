@@ -1,11 +1,7 @@
 ---
-layout: page
+layout: academic-redirect
 permalink: /Teaching/
 title: Teaching
-description:
-nav: true
-nav_order: 6
-calendar: false
+nav: false
+target: "#teaching"
 ---
-
-<!-- Add your teaching experience and course materials here. -->
