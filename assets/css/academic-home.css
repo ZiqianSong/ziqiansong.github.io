@@ -188,6 +188,7 @@
 
 .academic-teaching-course:first-of-type {
   border-top: 1px solid var(--global-divider-color);
+  padding-top: 16px;
 }
 
 .academic-teaching-course h4 {
