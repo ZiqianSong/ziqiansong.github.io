@@ -112,13 +112,6 @@
   flex-direction: column;
 }
 
-.academic-overview .academic-interests {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 .academic-home a {
   color: var(--academic-blue);
 }
