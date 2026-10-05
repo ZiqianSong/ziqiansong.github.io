@@ -161,7 +161,7 @@
 }
 
 .academic-teaching-course {
-  padding: 18px 0;
+  padding: 10px 0;
 }
 
 .academic-teaching-course:first-of-type {
@@ -171,7 +171,7 @@
 .academic-teaching-course h4 {
   margin: 0 0 4px;
   color: var(--academic-blue);
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 700;
 }
 
