@@ -148,11 +148,6 @@ html[data-theme="dark"] .academic-home a {
   font-size: 16px;
 }
 
-.academic-location {
-  color: var(--global-text-color-light, #666);
-  font-size: 14px;
-}
-
 .academic-skip-link {
   position: absolute;
   left: 16px;
