@@ -142,6 +142,7 @@
 .academic-content #cv .academic-view-title {
   border-bottom: 1px solid var(--academic-gold);
   padding-bottom: 12px;
+  font-size: 26px;
 }
 
 .academic-content h3 {
