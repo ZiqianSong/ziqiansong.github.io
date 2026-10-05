@@ -6,6 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Ziqian
 middle_name:
 last_name: Song
+academic_role: PhD Candidate
 contact_note:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Ziqian Song, PhD Candidate, Department of Economics, Sciences Po.

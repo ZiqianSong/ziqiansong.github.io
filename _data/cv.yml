@@ -1,18 +1,20 @@
 cv:
   name: Ziqian Song
-  label: PhD Candidate
   email: ziqian.song@sciencespo.fr
   sections:
     Education:
       - institution: Sciences Po
         location: Paris, France
-        degree: PhD in Economics
+        degree: PhD
+        area: Economics
         date: Sep. 2025 — Present
       - institution: Tsinghua University
         location: Beijing, China
-        degree: MSc in Theoretical Economics
+        degree: MSc
+        area: Theoretical Economics
         date: Sep. 2022 — Jun. 2025
       - institution: Renmin University of China
         location: Beijing, China
-        degree: BEcon in Economic Statistics
+        degree: BEcon
+        area: Economic Statistics
         date: Sep. 2018 — Jun. 2022
