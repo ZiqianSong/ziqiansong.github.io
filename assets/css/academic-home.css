@@ -137,6 +137,23 @@
   font-weight: 700;
 }
 
+.academic-content #teaching h3 {
+  font-size: 20px;
+}
+
+.academic-content .academic-overview h2 {
+  font-size: 22px;
+}
+
+.academic-overview .academic-interests,
+.academic-overview .academic-education li {
+  font-size: 16px;
+}
+
+.academic-overview .academic-institution {
+  font-size: 15px;
+}
+
 .academic-content ul {
   padding-left: 23px;
   margin-bottom: 0;

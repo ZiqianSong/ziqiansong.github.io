@@ -5,7 +5,8 @@ permalink: /
 ---
 
 <section id="research" data-academic-view="research" aria-label="Research">
-  <p>I am a PhD Candidate in the Department of Economics at Sciences Po. My research focuses on technical change, macro-development, spatial economics, labour economics, and political economy.</p>
+  <p>My research focuses on the causes and consequences of technical change, with connections to macro-development, spatial economics, labour economics, and political economy.</p>
+  <p>I am a PhD Candidate in the Department of Economics at Sciences Po, supervised by <a href="https://sites.google.com/site/clemimbert/">Clément Imbert</a> and <a href="https://sites.google.com/view/pierrephilippecombes/">Pierre-Philippe Combes</a>.</p>
   <div class="academic-overview">
     <section aria-labelledby="interests-heading">
       <h2 id="interests-heading">Interests</h2>
@@ -25,10 +26,17 @@ permalink: /
   <section class="academic-papers" aria-labelledby="papers-heading">
     <h2 id="papers-heading">Working Papers</h2>
     <article>
+      <h3>Human Capital, Directed Innovation, and Structural Change</h3>
+      <details class="academic-abstract">
+        <summary>Abstract</summary>
+        <p>We document a structural change of innovation from manufacturing to consumer services in China between 2010 and 2015. This shift is accompanied by faster TFP growth in consumer services and by employment reallocation driven primarily by younger cohorts with higher human capital. To account for these facts, we develop a multi-sector model of directed innovation and structural change with nonhomothetic preferences. The model introduces a novel supply-side adoption-capacity channel through which semi-skilled workers lower technology-adoption costs. Sectors differ in educated-labor intensity and in adoption capacity for new varieties of labor-augmenting machines created by scientists. We estimate sector-specific adoption elasticities using shift-share instruments and calibrate the model to Chinese data. The calibrated model reproduces service-led growth and the reallocation of innovation toward services. The counterfactuals show that the adoption-capacity channel accounts for roughly half of the associated welfare gains and GDP growth, while the demand-side channel explains the remaining half. Reducing adoption capacity while preserving nonhomothetic demand produces Baumol's cost disease: service employment expands, but service-sector innovation and aggregate productivity decline. These results identify a novel supply-side channel underlying service-led growth. By lowering technology-adoption costs, sectoral human capital raises service-sector innovation and productivity. The strength of this adoption channel determines whether growth in educated labor supply generates service-led growth or instead produces Baumol's cost disease.</p>
+      </details>
+    </article>
+    <article>
       <h3>Artificial Intelligence and Spatial Sorting</h3>
       <details class="academic-abstract">
         <summary>Abstract</summary>
-        <p>Artificial intelligence (AI) affects cognitive tasks performed by skilled labor, potentially altering the skill-biased productivity advantages of large cities and spatial sorting. In this paper, we quantify the aggregate and distributional effects of AI-induced spatial sorting using a spatial equilibrium model with heterogeneous labor. We measure AI capital by isolating variation in firm-level software assets induced by shocks to public AI R&amp;D grants in China. Our structural estimates indicate that AI is a relative substitute for skilled labor and a relative complement to unskilled labor. Counterfactual analyses show that AI automation overturns canonical spatial sorting of skilled labor, with the skill ratio and skill premium declining most in large cities. We also find that AI automation increases aggregate productivity but lowers the welfare of skilled workers. The key mechanism is the interaction between local agglomeration forces and AI-driven relocation of unskilled labor toward large cities.</p>
+        <p>Artificial intelligence (AI) affects cognitive tasks performed by skilled labor, potentially altering the skill-biased productivity advantages of large cities and spatial sorting. In this paper, we quantify the aggregate and distributional effects of AI-induced spatial sorting using a spatial equilibrium model with heterogeneous labor. We measure AI software by isolating variation in firm-level software assets induced by shocks to public AI R&amp;D grants in China. Our structural estimates indicate that AI is a relative substitute for skilled labor and a relative complement to unskilled labor. Counterfactual analyses show that AI automation overturns canonical spatial sorting of skilled labor, with the skill ratio and skill premium declining most in large cities. We also find that AI automation increases aggregate productivity while reducing inequality between skilled and unskilled workers. Large-city agglomeration amplifies the output gains from AI automation by raising the productivity of AI-induced inflows of unskilled labor. Policy counterfactuals show that relaxing migration restrictions on unskilled labor in large cities is more effective than relaxing restrictions on skilled labor in amplifying the productivity effects of AI automation shocks. Both policies redistribute economic surplus from skilled to unskilled workers.</p>
       </details>
     </article>
     <article>
@@ -36,15 +44,12 @@ permalink: /
       <p class="academic-coauthors">with Z. Sun and Y. Wang</p>
       <details class="academic-abstract">
         <summary>Abstract</summary>
-        <p>This paper identifies the causal effect of inter-regional political connections on technology diffusion by using China's cadre rotation system as a quasi-natural experiment. Using data on cadre rotations and patent citations across Chinese cities from 2006 to 2016, we find that rotated officials lead to a significant increase in patent citations and collaborative patenting between cities, especially under highly educated or strongly incentivized officials. The underlying mechanism for this result is the industrial preferences of rotated officials. We also show that rotated officials with advanced experience in industrial development prioritize innovation quality over quantity. Our findings reveal a novel mechanism for reducing barriers to knowledge diffusion in developing countries, emphasizing the critical role of political networks in fostering innovation and inclusive growth.</p>
+        <p>This paper identifies the causal effect of inter-regional political connections on technology diffusion by using China’s cadre rotation system as a quasi-natural experiment. Using data on cadre rotations and patent citations across Chinese cities from 2006 to 2016, we find that rotated officials lead to a significant increase in patent citations and collaborative patenting between cities, especially under highly educated or strongly incentivized officials. The underlying mechanism for this result is the industrial preferences of rotated officials. We also show that rotated officials with advanced experience in industrial development prioritize innovation quality over quantity. Our findings reveal a novel mechanism for reducing barriers to knowledge diffusion in developing countries, emphasizing the critical role of political networks in fostering innovation and inclusive growth.</p>
       </details>
     </article>
   </section>
   <section class="academic-papers" aria-labelledby="progress-heading">
     <h2 id="progress-heading">Work in Progress</h2>
-    <article>
-      <h3>Human Capital, Directed Innovation, and Structural Change</h3>
-    </article>
     <article>
       <h3>Data-Biased Knowledge Production</h3>
     </article>
@@ -61,5 +66,4 @@ permalink: /
   <h2 class="academic-view-title" id="teaching-heading">Teaching</h2>
   <h3>Sciences Po</h3>
   <p><strong>Development Economics</strong><br>Clément Imbert · Spring 2026</p>
-  <p>Contact: <a href="mailto:ziqian.song@sciencespo.fr">ziqian.song@sciencespo.fr</a></p>
 </section>
