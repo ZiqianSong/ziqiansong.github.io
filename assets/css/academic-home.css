@@ -44,6 +44,13 @@
   line-height: 1.6;
 }
 
+.academic-address {
+  margin-bottom: 24px;
+  color: var(--global-text-color-light, #777);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
 .academic-navigation {
   display: flex;
   flex-direction: column;
