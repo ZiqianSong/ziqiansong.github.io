@@ -88,6 +88,18 @@
   margin-top: 40px;
 }
 
+.academic-overview > section {
+  display: flex;
+  flex-direction: column;
+}
+
+.academic-overview .academic-interests {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .academic-home a {
   color: var(--academic-blue);
 }
@@ -139,9 +151,13 @@
   display: flex;
   align-items: flex-start;
   gap: 12px;
-  margin-bottom: 18px;
+  margin-bottom: 12px;
   font-size: 17px;
   line-height: 1.45;
+}
+
+.academic-education li:last-child {
+  margin-bottom: 0;
 }
 
 .academic-degree-icon {

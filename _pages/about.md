@@ -5,7 +5,7 @@ permalink: /
 ---
 
 <section id="research" data-academic-view="research" aria-label="Research">
-  <p>I am a PhD Candidate in the Department of Economics at Sciences Po. My research focuses on technical change, macro-development, spatial economics, and political economy.</p>
+  <p>I am a PhD Candidate in the Department of Economics at Sciences Po. My research focuses on technical change, macro-development, spatial economics, labour economics, and political economy.</p>
   <div class="academic-overview">
     <section aria-labelledby="interests-heading">
       <h2 id="interests-heading">Interests</h2>
@@ -13,6 +13,7 @@ permalink: /
         <li>Technical Change</li>
         <li>Macro-development</li>
         <li>Spatial Economics</li>
+        <li>Labour Economics</li>
         <li>Political Economy</li>
       </ul>
     </section>
