@@ -50,7 +50,7 @@
 
 .academic-portrait {
   width: 180px;
-  height: 180px;
+  height: 210px;
   margin-bottom: 24px;
   border-radius: 50%;
   overflow: hidden;
@@ -61,6 +61,9 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center bottom;
+  transform: scale(1.05);
+  transform-origin: center bottom;
 }
 
 .academic-affiliation {
@@ -174,6 +177,8 @@
 }
 
 .academic-content #teaching .academic-view-title {
+  border-bottom: 1px solid var(--academic-gold);
+  padding-bottom: 12px;
   font-size: 26px;
 }
 
