@@ -20,13 +20,14 @@
             src="{{ '/assets/img/ziqian-song.jpg' | relative_url }}"
             alt="Ziqian Song"
             width="180"
-            height="225"
+            height="180"
           >
         </div>
         <p class="academic-affiliation">
           <strong>{{ site.academic_role }}</strong><br>
           Department of Economics<br>
           <strong>Sciences Po</strong>
+          <a class="academic-email" href="mailto:{{ site.data.cv.cv.email }}">{{ site.data.cv.cv.email }}</a>
         </p>
         <p class="academic-address">
           28 rue des Saints-Pères<br>
@@ -37,7 +38,6 @@
           <a href="#cv">Curriculum Vitae</a>
           <a href="#teaching">Teaching</a>
         </nav>
-        <a class="academic-email" href="mailto:{{ site.data.cv.cv.email }}">{{ site.data.cv.cv.email }}</a>
       </aside>
       <main class="academic-content" id="main-content">
         {{ content }}
