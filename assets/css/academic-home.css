@@ -47,6 +47,22 @@
   color: inherit;
 }
 
+.academic-portrait {
+  width: 180px;
+  height: 225px;
+  margin-bottom: 24px;
+  overflow: hidden;
+}
+
+.academic-portrait img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.2);
+  transform-origin: center bottom;
+}
+
 .academic-affiliation {
   margin-bottom: 24px;
   line-height: 1.6;
@@ -152,6 +168,10 @@
   font-weight: 700;
 }
 
+.academic-content #cv h3 {
+  font-size: 22px;
+}
+
 .academic-content #teaching .academic-view-title {
   font-size: 26px;
 }
@@ -211,7 +231,7 @@
   align-items: flex-start;
   gap: 12px;
   margin-bottom: 12px;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 1.45;
 }
 
@@ -228,7 +248,7 @@
 
 .academic-institution {
   color: var(--global-text-color-light, #666);
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .academic-papers {
