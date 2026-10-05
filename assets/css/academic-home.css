@@ -61,8 +61,6 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transform: scale(1.2);
-  transform-origin: center bottom;
 }
 
 .academic-affiliation {
@@ -181,7 +179,7 @@
 
 .academic-content #teaching h3 {
   margin-bottom: 12px;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .academic-teaching-course {
@@ -195,7 +193,7 @@
 .academic-teaching-course h4 {
   margin: 0 0 4px;
   color: var(--academic-blue);
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
 }
 
