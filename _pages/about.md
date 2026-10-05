@@ -5,8 +5,8 @@ permalink: /
 ---
 
 <section id="research" data-academic-view="research" aria-label="Research">
-  <p>My research focuses on the causes and consequences of technical change, with connections to macro-development, spatial economics, labour economics, and political economy.</p>
-  <p>I am a PhD Candidate in the Department of Economics at Sciences Po, supervised by <a href="https://sites.google.com/site/clemimbert/">Clément Imbert</a> and <a href="https://sites.google.com/view/pierrephilippecombes/">Pierre-Philippe Combes</a>.</p>
+  <p>My research focuses on the causes and consequences of technical change, related to macro-development, spatial economics, labour economics, and political economy.</p>
+  <p>I am a PhD Candidate in the Department of Economics at Sciences Po, supervised by <a class="academic-supervisor" href="https://sites.google.com/site/clemimbert/">Clément Imbert</a> and <a class="academic-supervisor" href="https://sites.google.com/view/pierrephilippecombes/">Pierre-Philippe Combes</a>.</p>
   <div class="academic-overview">
     <section aria-labelledby="interests-heading">
       <h2 id="interests-heading">Interests</h2>
@@ -65,5 +65,12 @@ permalink: /
 <section id="teaching" data-academic-view="teaching" aria-labelledby="teaching-heading" hidden>
   <h2 class="academic-view-title" id="teaching-heading">Teaching</h2>
   <h3>Sciences Po</h3>
-  <p><strong>Development Economics</strong><br>Clément Imbert · Spring 2026</p>
+  <div class="academic-teaching-course">
+    <h4>Development Economics</h4>
+    <p>Clément Imbert · Spring 2026</p>
+  </div>
+  <div class="academic-teaching-course">
+    <h4>Mathematics for Economics</h4>
+    <p>Autumn 2027</p>
+  </div>
 </section>
