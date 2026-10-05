@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="{{ site.lang }}">
+  <head>
+    {% include head.liquid %}
+    <link rel="stylesheet" href="{{ '/assets/css/academic-home.css' | relative_url }}">
+  </head>
+  <body class="academic-home">
+    <a class="academic-skip-link" href="#main-content">Skip to content</a>
+    <div class="academic-shell">
+      <aside class="academic-sidebar" aria-label="Profile">
+        <h1>
+          <a href="{{ '/' | relative_url }}">{{ site.data.cv.cv.name }}</a>
+        </h1>
+        <p class="academic-affiliation">
+          <strong>{{ site.data.cv.cv.label }}</strong><br>
+          Department of Economics<br>
+          <strong>Sciences Po</strong>
+        </p>
+        <nav class="academic-navigation" aria-label="Main navigation">
+          <a href="#interests">Research Interests</a>
+          <a href="#education">Education</a>
+          <a href="{{ '/cv/' | relative_url }}">Curriculum Vitae</a>
+          <a href="{{ '/Teaching/' | relative_url }}">Teaching</a>
+        </nav>
+        <a class="academic-email" href="mailto:{{ site.data.cv.cv.email }}">{{ site.data.cv.cv.email }}</a>
+        {% if site.enable_darkmode %}
+          <button class="academic-theme-toggle" id="light-toggle" type="button" title="Change theme">Change theme</button>
+        {% endif %}
+      </aside>
+      <main class="academic-content" id="main-content">
+        {{ content }}
+      </main>
+    </div>
+    {% include footer.liquid %}
+  </body>
+</html>
