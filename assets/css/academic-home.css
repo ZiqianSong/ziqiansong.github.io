@@ -168,7 +168,7 @@ html[data-theme="dark"] .academic-home a {
   margin-top: 32px;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 900px) {
   .academic-shell {
     grid-template-columns: minmax(0, 1fr);
     gap: 32px;
@@ -189,7 +189,9 @@ html[data-theme="dark"] .academic-home a {
   .academic-content h2 {
     scroll-margin-top: 20px;
   }
+}
 
+@media (max-width: 600px) {
   .academic-overview {
     grid-template-columns: minmax(0, 1fr);
     gap: 28px;
