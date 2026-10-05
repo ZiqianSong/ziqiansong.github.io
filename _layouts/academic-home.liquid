@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="{{ site.lang }}">
+  <head>
+    {% include head.liquid %}
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    >
+    <link rel="stylesheet" href="{{ '/assets/css/academic-home.css' | relative_url }}">
+  </head>
+  <body class="academic-home">
+    <a class="academic-skip-link" href="#main-content">Skip to content</a>
+    <div class="academic-shell">
+      <aside class="academic-sidebar" aria-label="Profile">
+        <h1>
+          <a href="{{ '/' | relative_url }}">{{ site.data.cv.cv.name }}</a>
+        </h1>
+        <p class="academic-affiliation">
+          <strong>{{ site.data.cv.cv.label }}</strong><br>
+          Department of Economics<br>
+          <strong>Sciences Po</strong>
+        </p>
+        <nav class="academic-navigation" aria-label="Main navigation">
+          <a href="#research" aria-current="page">Research</a>
+          <a href="#cv">Curriculum Vitae</a>
+          <a href="#teaching">Teaching</a>
+        </nav>
+        <a class="academic-email" href="mailto:{{ site.data.cv.cv.email }}">{{ site.data.cv.cv.email }}</a>
+        {% if site.enable_darkmode %}
+          <button class="academic-theme-toggle" id="light-toggle" type="button" title="Change theme">Change theme</button>
+        {% endif %}
+      </aside>
+      <main class="academic-content" id="main-content">
+        {{ content }}
+      </main>
+    </div>
+    {% include footer.liquid %}
+    <script defer src="{{ '/assets/js/academic-home.js' | relative_url }}"></script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="{{ site.lang }}">
+  <head>
+    <meta charset="utf-8">
+    {% assign destination = '/' | relative_url | append: page.target %}
+    <meta http-equiv="refresh" content="0; url={{ destination }}">
+    <link rel="canonical" href="{{ site.url }}{{ destination }}">
+    <title>
+      {{ page.title }}
+      | Ziqian Song
+    </title>
+  </head>
+  <body>
+    <a href="{{ destination }}">{{ page.title }}</a>
+  </body>
+</html>
