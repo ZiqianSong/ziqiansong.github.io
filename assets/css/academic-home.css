@@ -44,7 +44,7 @@
   width: 100%;
   flex: 1;
   margin: 0 auto;
-  padding: 64px 32px 32px;
+  padding: 64px 32px 0;
 }
 
 .academic-sidebar {
@@ -321,7 +321,7 @@
 
 .academic-home footer.fixed-bottom {
   position: static;
-  margin-top: 32px;
+  margin-top: 0;
   font-size: 12px;
   background: var(--academic-blue);
   color: var(--global-bg-color);
@@ -339,7 +339,7 @@
   .academic-shell {
     grid-template-columns: minmax(0, 1fr);
     gap: 32px;
-    padding: 32px 24px;
+    padding: 32px 24px 0;
   }
 
   .academic-sidebar {
