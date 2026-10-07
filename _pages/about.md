@@ -6,7 +6,7 @@ permalink: /
 
 <section id="research" data-academic-view="research" aria-label="Research">
   <p>I am a PhD Candidate in the Department of Economics at Sciences Po, supervised by <a class="academic-supervisor" href="https://sites.google.com/site/clemimbert/">Clément Imbert</a> and <a class="academic-supervisor" href="https://sites.google.com/view/pierrephilippecombes/">Pierre-Philippe Combes</a>.</p>
-  <p>My research focuses on the causes and consequences of technical change, related to macro-development, spatial economics, and labour economics.</p>
+  <p>My research focuses on the causes and consequences of technical change, related to macro&#8209;development, spatial economics, and labour economics.</p>
   <div class="academic-overview">
     <section aria-labelledby="interests-heading">
       <h2 id="interests-heading">Interests</h2>
